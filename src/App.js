@@ -1,5 +1,6 @@
 import React from "react";
 import EffectForm from "./EffectForm";
+import ReducerForm from "./ReducerForm";
 
 import "./App.css";
 
@@ -7,7 +8,8 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <EffectForm />
+        {/* <EffectForm /> */}
+        <ReducerForm />
       </div>
     </div>
   );
